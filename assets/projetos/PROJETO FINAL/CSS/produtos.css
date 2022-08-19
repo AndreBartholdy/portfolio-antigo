@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+em,
+img,
+strong,
+u,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+article,
+aside, 
+figure,
+figcaption,
+footer,
+header,
+nav,
+section,
+time,
+audio,
+video{
+  border:0;
+  font-size:100%;
+  font:inherit;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
+}
+html{scroll-behavior:smooth;}
+body{
+  background:#fff;
+  color:#000;
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  line-height:1;
+}
+ol, 
+ul,
+li{list-style:none;}
+strong{font-weight:bold;}
+table{
+  border-collapse:collapse;
+  border-spacing:0;
+  width:100%;
+}
+img{width:100%;}
+a,
+a:hover{
+  color:#000;
+  text-decoration:none;
+  cursor:pointer;
+}
+:focus{outline:0;}
+
+/* PRODUTOS */
+.title{
+    text-align: center;
+}
+.title > h2{
+    margin-bottom: 15px;
+    padding: 10px;
+    font:500 40px 'Poppins', sans-serif;
+    color: #0B254B;
+}
+.title > p{
+    margin-bottom: 60px;
+    font:500 18px 'Poppins', sans-serif;
+    color: #5E6E89;
+}
+.prod-grid{
+    padding: 10px;
+}
+.content-products{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.content-products:hover{
+    transition: 0.3s ease all;
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img-products{
+    background: #F7F8FA;
+    margin-bottom: 20px;
+}
+.price{
+    color: green;
+    margin-left: 75%;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.name-product{
+    color: #1D293f;
+    margin-left: 6%;
+    font:500 16px 'Poppins', sans-serif;
+}

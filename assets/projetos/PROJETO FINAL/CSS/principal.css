@@ -1,0 +1,27 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* CABECALHO */
+.cabecalho{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.menu , .icones{
+    display: flex;
+}
+
+.menu > ul > li{
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+    display: block;
+}

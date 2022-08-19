@@ -83,6 +83,7 @@ header{
     background: #1d1d1d;
     position: sticky;
     top: 0;
+    z-index: 9;
 }
 .cabecalho{
     width: 80%;
@@ -193,8 +194,42 @@ h3{
     border: solid 1px;
     border-color: rgba(95, 95, 95, 0.2);
     border-radius: 5px;
-    height: 10em;
     padding: 1em 0 0 1em;
+}
+.projetos1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.projetos-grid{
+    background: rgba( 8, 8, 8, 0.15 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 0.3px solid rgba(255, 255, 255, 0.047);
+    margin-bottom: 20px;
+}
+.projetos-grid img{
+    object-fit: cover;
+    object-position: center;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.projetos-grid p{
+    width: fit-content;
+    margin: 5px auto;
+    font-size: 16px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    padding: 2px;
+}
+.projetos-grid:hover p{
+    color: #08fdd8;
+}
+.projetos-grid:hover{
+    transform: scale(1.05);
+    transition: .5s ease all;
 }
 
 /* REDES SOCIAIS */
@@ -250,4 +285,7 @@ footer{
     }
     .skill-flex1 article{width: 33%;}
     .skills-flex p{display: none;}
+
+    /* PROJETOS */
+    .projetos-grid{margin: 10px;}
 }
